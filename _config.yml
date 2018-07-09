@@ -1,25 +1,19 @@
-title: Hello, world! I'm David Freeman
+title: Matthew Chambers
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My name is Matthew Chambers and I'm a web developer and digital marketer.
 permalink: ':title/'
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: David Freeman # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
-
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
+author: Matthew Chambers # add your name
+author-img: mattchambers.jpg # add your photo
+about-author: I'm a digital marketer & web developer focusing on media buying and front-end development. Always hungry to keep learning. # add description
+social-twitter: MattC_997
+social-github: mattchambers # add your Github handle
+social-linkedin: mattchambers9 # add your Linkedin handle
+social-email: matt.keizergroup@gmail.com # add your Email address
 
 # Tracker
 analytics: # Google Analytics

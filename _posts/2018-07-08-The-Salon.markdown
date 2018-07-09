@@ -1,0 +1,16 @@
+---
+layout: post
+title: The Salon Jamaica
+project-link: https://thesalonja.com
+date: 2018-07-08 21:50:00 -0500
+img: salon-desktop.png
+tags: [Web Development, Digital Marketing]
+---
+
+The client wanted a beautiful website that will mark their presence online and generate appointments from online users.
+
+I built a dynamic website using the PHP framework, Laravel, making it dynamic in all aspects including its blog, services page & appointment scheduler.
+
+Using my knowledge in SEO, I made sure to ensure this website was 100% responsive for all users (desktop - mobile). All pages are fully optimized for search engines for high volume search terms which to this day generates appointments organically. 
+
+Using Facebook sponsored posts, I've created multiple campaigns targeting users of specific services offered by my clients and have generated over 100% ROI on all social campaigns.

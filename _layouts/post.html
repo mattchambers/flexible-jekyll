@@ -16,7 +16,11 @@ layout: main
     {% endif %}
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">{{page.title}}</h1>
+        {% if page.project-link %}
+          <h1 class="page-title"><a target="_blank" href="{{page.project-link}}">{{page.title}} <i class="fa fa-external-link"></i></a></h1>
+        {% else %}
+          <h1 class="page-title">{{page.title}}</h1>
+        {% endif %}
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       {{content | markdownify}}
@@ -32,7 +36,7 @@ layout: main
           {% endfor %}
         </div>
       </div>
-      {% include disqus.html %}
+    
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
